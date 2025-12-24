@@ -38,11 +38,11 @@ Key components include:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/spell-checker.git
-cd spell-checker
+git clone https://github.com/yourusername/Spell-checker-and-dictionary-implementation-Data-Structures-and-Algorithms.git
+cd Spell-checker-and-dictionary-implementation-Data-Structures-and-Algorithms
 
 # Compile the C++ program
-g++ spell_checker.cpp -o spell_checker
+g++ Coding_Assignment_4_Q(1).cpp -o Coding_Assignment_4
 ```
 
 ## Usage
@@ -50,11 +50,12 @@ g++ spell_checker.cpp -o spell_checker
 1. Run the spell checker:
 
 ```bash
-./spell_checker
+./Coding_Assignment_4
 ```
 
 2. Input a word or sentence to check spelling.
 3. The program outputs suggestions or corrections for any detected spelling mistakes.
+4. Edit the words.txt file to add or remove words
 
 ## Implementation
 
@@ -73,6 +74,19 @@ g++ spell_checker.cpp -o spell_checker
 * Extend to handle multi-word sentences with context-aware suggestions.
 * Incorporate frequency-based ranking for suggested corrections.
 * Add support for multiple languages and larger dictionaries.
+
+## Citation
+
+If you use this work, please cite:
+
+```bibtex
+@software{Spell-checker-and-dictionary-implementation-Data-Structures-and-Algorithms,
+  author = {Shubhan Mital},
+  title = {Spell checker and dictionary implementation Data Structures and Algorithms},
+  year = {2025},
+  url = https://github.com/Shubhanflash22/Spell-checker-and-dictionary-implementation-Data-Structures-and-Algorithms.git
+}
+```
 
 ## License
 
